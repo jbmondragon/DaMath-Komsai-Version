@@ -33,53 +33,85 @@ These formats not only add complexity but also enhance mathematical fluency, esp
 
 ---
 
-## 🛠️ Game Components
+## 🛠️ Installation Instructions
 
-- 🎯 1 Game Board (with operation signs on grid intersections)  
-- 🔵 2 Sets of Chips (equal number, unique identifiers per player)  
-- 🧾 Score Sheet or Calculator (for keeping track of expressions and scores)  
-- 📘 Rules Sheet (to guide valid moves and operations)
+You can run **DaMath 53** in three different ways:
 
----
+### 🧪 Option 1: Run from Source (Java Required)
 
-## 🧮 Educational Benefits
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/damath53.git
+   cd damath53
+Compile and run the main file:
 
+bash
+Copy
+Edit
+javac Main.java
+java Main
+📦 Option 2: Run as JAR
+Compile the code and package it as a .jar:
+
+bash
+Copy
+Edit
+javac Main.java
+jar cfe DaMath53.jar Main *.class
+Run the .jar file:
+
+bash
+Copy
+Edit
+java -jar DaMath53.jar
+💡 Option 3: Convert to Executable (Windows)
+Use a tool like Launch4j or JSmooth to convert the JAR into a .exe file.
+
+Double-click the .exe to run the game like a native Windows application.
+
+🛠️ Game Components
+🎯 Game Board (displayed via the UI)
+
+🔵 Player Chips (with encoded math values)
+
+🧾 Score Tracker (automatic calculation)
+
+📘 Rule System (built-in logic)
+
+🧮 Educational Benefits
 DaMath 53 helps improve:
 
-- Logical and critical thinking  
-- Understanding of number systems and mathematical operations  
-- Conversion between different numerical forms  
-- Real-time mental math and problem-solving skills
+Logical and critical thinking
 
----
+Understanding of number systems and mathematical operations
 
-## 🕹️ How to Play
+Conversion between different numerical forms
 
-1. Players take turns moving their chips across the board.  
-2. If a player captures an opponent's chip, the value of that chip is evaluated based on the board's operation sign.  
-3. Points are calculated accordingly.  
-4. The game ends when all opponent chips are captured or no legal moves remain.  
-5. The player with the **highest total score** is declared the **winner**.
+Real-time mental math and problem-solving skills
 
----
+🕹️ How to Play
+Players take turns moving their chips across the board.
 
-## 📚 Example
+If a player captures an opponent's chip, the value of that chip is evaluated based on the board's operation sign.
 
-> Player A captures a chip labeled `log₂(8)` on a tile with a `×` sign and multiplies it by `cos(0)`.  
->  
-> 🧮 Calculation: `log₂(8) × cos(0) = 3 × 1 = 3` points
+Points are calculated accordingly.
 
----
+The game ends when all opponent chips are captured or no legal moves remain.
 
-## 🧠 Tips for Winning
+The player with the highest total score is declared the winner.
 
-- Learn to quickly evaluate different mathematical forms  
-- Plan your moves strategically based on high-value targets  
-- Use operation tiles to your advantage
+📚 Example
+Player A captures a chip labeled log₂(8) on a tile with a × sign and multiplies it by cos(0).
 
----
+🧮 Calculation: log₂(8) × cos(0) = 3 × 1 = 3 points
 
-## 🚀 Ready to Play?
+🧠 Tips for Winning
+Learn to quickly evaluate different mathematical forms
 
-Put your math skills to the test and dominate the board.  
-Welcome to **DaMath 53** — where every move counts, and every number tells a story!
+Plan your moves strategically based on high-value targets
+
+Use operation tiles to your advantage
+
+🚀 Ready to Play?
+Put your math skills to the test and dominate the board.
+Welcome to DaMath 53 — where every move counts, and every number tells a story!
