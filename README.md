@@ -14,7 +14,7 @@
 Each player starts with an equal number of chips. The goal is to **capture your opponent's chips** and score points based on:
 
 - The **mathematical value** of the captured chip  
-- The **operation** applied to it on the board (addition, subtraction, etc.)
+- The **operation** applied to it on the board (addition, subtraction, multiplication and division)
 
 The player with the **highest total score** at the end of the game wins.
 
