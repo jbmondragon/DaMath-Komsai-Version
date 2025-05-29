@@ -1,3 +1,4 @@
+
 # DaMath 53 🎲🧠  
 *A fun and strategic board game that sharpens your mathematical skills!*
 
@@ -14,7 +15,7 @@
 Each player starts with an equal number of chips. The goal is to **capture your opponent's chips** and score points based on:
 
 - The **mathematical value** of the captured chip  
-- The **operation** applied to it on the board (addition, subtraction, multiplication and division)
+- The **operation** applied to it on the board (addition, subtraction, multiplication, and division)
 
 The player with the **highest total score** at the end of the game wins.
 
@@ -43,75 +44,85 @@ You can run **DaMath 53** in three different ways:
    ```bash
    git clone https://github.com/yourusername/damath53.git
    cd damath53
-Compile and run the main file:
+   ```
 
-bash
-Copy
-Edit
-javac Main.java
-java Main
-📦 Option 2: Run as JAR
-Compile the code and package it as a .jar:
+2. **Compile and run the main file**:
+   ```bash
+   javac Main.java
+   java Main
+   ```
 
-bash
-Copy
-Edit
-javac Main.java
-jar cfe DaMath53.jar Main *.class
-Run the .jar file:
+---
 
-bash
-Copy
-Edit
-java -jar DaMath53.jar
-💡 Option 3: Convert to Executable (Windows)
-Use a tool like Launch4j or JSmooth to convert the JAR into a .exe file.
+### 📦 Option 2: Run as JAR
 
-Double-click the .exe to run the game like a native Windows application.
+1. **Compile the code and package it as a `.jar` file**:
+   ```bash
+   javac Main.java
+   jar cfe DaMath53.jar Main *.class
+   ```
 
-🛠️ Game Components
-🎯 Game Board (displayed via the UI)
+2. **Run the JAR file**:
+   ```bash
+   java -jar DaMath53.jar
+   ```
 
-🔵 Player Chips (with encoded math values)
+---
 
-🧾 Score Tracker (automatic calculation)
+### 💡 Option 3: Convert to Executable (Windows)
 
-📘 Rule System (built-in logic)
+1. Use a tool like **Launch4j** or **JSmooth** to convert the JAR into a `.exe` file  
+2. Double-click the `.exe` to run the game like a native Windows application
 
-🧮 Educational Benefits
+---
+
+## 🧰 Game Components
+
+- 🎯 Game Board (displayed via the UI)  
+- 🔵 Player Chips (with encoded math values)  
+- 🧾 Score Tracker (automatic calculation)  
+- 📘 Rule System (built-in logic)
+
+---
+
+## 🧮 Educational Benefits
+
 DaMath 53 helps improve:
 
-Logical and critical thinking
+- Logical and critical thinking  
+- Understanding of number systems and mathematical operations  
+- Conversion between different numerical forms  
+- Real-time mental math and problem-solving skills
 
-Understanding of number systems and mathematical operations
+---
 
-Conversion between different numerical forms
+## 🕹️ How to Play
 
-Real-time mental math and problem-solving skills
+1. Players take turns moving their chips across the board  
+2. If a player captures an opponent's chip, the value of that chip is evaluated based on the board's operation sign  
+3. Points are calculated accordingly  
+4. The game ends when all opponent chips are captured or no legal moves remain  
+5. The player with the **highest total score** is declared the **winner**
 
-🕹️ How to Play
-Players take turns moving their chips across the board.
+---
 
-If a player captures an opponent's chip, the value of that chip is evaluated based on the board's operation sign.
+## 📚 Example
 
-Points are calculated accordingly.
+> Player A captures a chip labeled `log₂(8)` on a tile with a `×` sign and multiplies it by `cos(0)`  
+>  
+> 🧮 **Calculation**: `log₂(8) × cos(0) = 3 × 1 = 3` points
 
-The game ends when all opponent chips are captured or no legal moves remain.
+---
 
-The player with the highest total score is declared the winner.
+## 🧠 Tips for Winning
 
-📚 Example
-Player A captures a chip labeled log₂(8) on a tile with a × sign and multiplies it by cos(0).
+- Learn to quickly evaluate different mathematical forms  
+- Plan your moves strategically based on high-value targets  
+- Use operation tiles to your advantage
 
-🧮 Calculation: log₂(8) × cos(0) = 3 × 1 = 3 points
+---
 
-🧠 Tips for Winning
-Learn to quickly evaluate different mathematical forms
+## 🚀 Ready to Play?
 
-Plan your moves strategically based on high-value targets
-
-Use operation tiles to your advantage
-
-🚀 Ready to Play?
-Put your math skills to the test and dominate the board.
-Welcome to DaMath 53 — where every move counts, and every number tells a story!
+Put your math skills to the test and dominate the board.  
+Welcome to **DaMath 53** — where every move counts, and every number tells a story!
