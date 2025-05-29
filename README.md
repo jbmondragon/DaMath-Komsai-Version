@@ -2,6 +2,8 @@
 # DaMath 53 🎲🧠  
 *A fun and strategic board game that sharpens your mathematical skills!*
 
+*Developer: Jake Mondragon, Benedict Pagba, and Sean Bantanos*
+
 ---
 
 ## 🧩 What is DaMath 53?
